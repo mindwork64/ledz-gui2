@@ -29,11 +29,7 @@ namespace ledz_gui
 
         private void button1_Click(object sender, EventArgs e)
         {
-            float u1 = float.Parse(textBox1.Text);
-            float u2 = float.Parse(textBox2.Text);
-            float i1 = float.Parse(textBox3.Text);
-            string res = ((u1 - u2) / i1).ToString();
-            textBox4.Text = res;
+            textBox4.Text = ((float.Parse(textBox1.Text) - float.Parse(textBox2.Text)) / float.Parse(textBox3.Text)).ToString();
         }
     }
 }
