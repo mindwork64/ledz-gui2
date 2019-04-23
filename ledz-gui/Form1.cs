@@ -31,5 +31,10 @@ namespace ledz_gui
         {
             textBox4.Text = ((float.Parse(textBox1.Text) - float.Parse(textBox2.Text)) / float.Parse(textBox3.Text)).ToString();
         }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
