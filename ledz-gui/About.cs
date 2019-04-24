@@ -15,6 +15,7 @@ namespace ledz_gui
         public About()
         {
             InitializeComponent();
+            CenterToParent();
         }
 
         private void label1_Click(object sender, EventArgs e)
