@@ -38,8 +38,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(393, 148);
             this.label1.TabIndex = 0;
-            this.label1.Text = "MindWork64\r\nСпециально для сотрудников сети магазинов \"Чип и Дип\".\r\n\r\nMindWork64 " +
-    "© 2019";
+            this.label1.Text = "Специально для сотрудников сети магазинов \"Чип и Дип\".\r\n\r\nMindWork64 © 2019";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 

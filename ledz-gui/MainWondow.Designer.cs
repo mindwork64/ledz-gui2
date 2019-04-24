@@ -51,18 +51,20 @@
             // 
             // button1
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button1.Location = new System.Drawing.Point(674, 264);
+            this.button1.BackColor = System.Drawing.Color.Linen;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button1.Location = new System.Drawing.Point(426, 182);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(100, 23);
+            this.button1.Size = new System.Drawing.Size(100, 24);
             this.button1.TabIndex = 0;
             this.button1.Text = "Расчитать";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(674, 127);
+            this.textBox1.BackColor = System.Drawing.Color.Linen;
+            this.textBox1.Location = new System.Drawing.Point(426, 45);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 20);
             this.textBox1.TabIndex = 1;
@@ -70,7 +72,8 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(674, 164);
+            this.textBox2.BackColor = System.Drawing.Color.Linen;
+            this.textBox2.Location = new System.Drawing.Point(426, 82);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(100, 20);
             this.textBox2.TabIndex = 2;
@@ -78,7 +81,8 @@
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(674, 208);
+            this.textBox3.BackColor = System.Drawing.Color.Linen;
+            this.textBox3.Location = new System.Drawing.Point(426, 126);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(100, 20);
             this.textBox3.TabIndex = 3;
@@ -87,7 +91,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(542, 130);
+            this.label1.Location = new System.Drawing.Point(294, 48);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(126, 13);
             this.label1.TabIndex = 4;
@@ -97,7 +101,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(535, 167);
+            this.label2.Location = new System.Drawing.Point(287, 85);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(133, 13);
             this.label2.TabIndex = 5;
@@ -106,7 +110,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(580, 211);
+            this.label3.Location = new System.Drawing.Point(332, 129);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(88, 13);
             this.label3.TabIndex = 6;
@@ -114,16 +118,17 @@
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(674, 338);
+            this.textBox4.BackColor = System.Drawing.Color.Linen;
+            this.textBox4.Location = new System.Drawing.Point(426, 256);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(100, 20);
             this.textBox4.TabIndex = 7;
             // 
             // label4
             // 
-            this.label4.Location = new System.Drawing.Point(579, 326);
+            this.label4.Location = new System.Drawing.Point(252, 244);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(89, 43);
+            this.label4.Size = new System.Drawing.Size(168, 43);
             this.label4.TabIndex = 8;
             this.label4.Text = "Сопротивление требуемого резистора";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -131,10 +136,10 @@
             // 
             // label5
             // 
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label5.Location = new System.Drawing.Point(8, 82);
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label5.Location = new System.Drawing.Point(12, 40);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(502, 106);
+            this.label5.Size = new System.Drawing.Size(269, 106);
             this.label5.TabIndex = 9;
             this.label5.Text = resources.GetString("label5.Text");
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -143,9 +148,9 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(12, 251);
+            this.pictureBox1.Location = new System.Drawing.Point(47, 149);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(312, 187);
+            this.pictureBox1.Size = new System.Drawing.Size(199, 126);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 10;
             this.pictureBox1.TabStop = false;
@@ -157,7 +162,7 @@
             this.помощьToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(551, 24);
             this.menuStrip1.TabIndex = 11;
             this.menuStrip1.Text = "FileMenu";
             // 
@@ -172,7 +177,7 @@
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(108, 22);
             this.exitToolStripMenuItem.Text = "Выход";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
@@ -187,15 +192,15 @@
             // оПрограммеToolStripMenuItem
             // 
             this.оПрограммеToolStripMenuItem.Name = "оПрограммеToolStripMenuItem";
-            this.оПрограммеToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.оПрограммеToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
             this.оПрограммеToolStripMenuItem.Text = "О программе...";
             this.оПрограммеToolStripMenuItem.Click += new System.EventHandler(this.оПрограммеToolStripMenuItem_Click);
             // 
-            // Form1
+            // MainWondow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(551, 308);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -209,7 +214,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
-            this.Name = "Form1";
+            this.Name = "MainWondow";
             this.Text = "LedZ-GUI";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.menuStrip1.ResumeLayout(false);
