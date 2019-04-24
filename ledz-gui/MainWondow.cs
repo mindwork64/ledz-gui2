@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ledz_gui
 {
-    public partial class Form1 : Form
+    public partial class MainWondow : Form
     {
-        public Form1()
+        public MainWondow()
         {
             InitializeComponent();
         }
@@ -44,7 +44,7 @@ namespace ledz_gui
 
         private void оПрограммеToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form2 frm = new Form2();
+            About frm = new About();
             frm.Show();
         }
     }

@@ -1,6 +1,6 @@
 ﻿namespace ledz_gui
 {
-    partial class Form2
+    partial class About
     {
         /// <summary>
         /// Required designer variable.
@@ -43,14 +43,14 @@
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // Form2
+            // About
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(417, 149);
             this.Controls.Add(this.label1);
-            this.Name = "Form2";
-            this.Text = "Form2";
+            this.Name = "About";
+            this.Text = "Эбаут, штоп его...";
             this.Load += new System.EventHandler(this.Form2_Load);
             this.ResumeLayout(false);
 
