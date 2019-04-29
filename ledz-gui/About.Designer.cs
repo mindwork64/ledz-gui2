@@ -38,8 +38,8 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(393, 148);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Специально для сотрудников сети магазинов \"Чип и Дип\".\r\n\r\nMindWork64 © 2019";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label1.Text = "MindWork64 © 2019";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // About
@@ -50,7 +50,7 @@
             this.Controls.Add(this.label1);
             this.Name = "About";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Эбаут, штоп его...";
+            this.Text = "Эбаут, без него никуды..";
             this.Load += new System.EventHandler(this.Form2_Load);
             this.ResumeLayout(false);
 
